@@ -2,5 +2,10 @@ val:
   layouts:
     footer:
       transparency_url: http://ondara.sedelectronica.es/transparency/
+      open_data_title: Seu Electrònica
+      open_data_text: Accés a la seu electrònica de l'Ajuntament d'Ondara
+
     header:
       external_link_transparency_url: http://ondara.sedelectronica.es/transparency/
+      external_link_opendata: Seu Electrònica
+      external_link_opendata_url: http://ondara.sedelectronica.es/
