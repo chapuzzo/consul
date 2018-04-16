@@ -9,3 +9,19 @@ val:
       external_link_transparency_url: http://ondara.sedelectronica.es/transparency/
       external_link_opendata: Seu Electrònica
       external_link_opendata_url: http://ondara.sedelectronica.es/
+      open_city_title: Ara, Ondara pot ser el poble que volem
+      open_city_slogan_html: Ara, els ondarencs i les ondarenques podem proposar i escollir les millores que volem al nostre poble, al nostre barri o al nostre carrer
+
+  welcome:
+    debates:
+      title: Ens trobem
+      description: Ara, hem de trobar un moment per assabentar-nos del funcionament d'aquest procés nou a la nostra població.
+    proposal:
+      title: Proposem
+      description: Ara, trobarem un espai obert a presentar Propostes de Projectes d'Inversió per decidir el poble que volem.
+    decide:
+      title: Decidim
+      description: Ara, podem decidir entre totes i tots les Propostes d'Inversió que volem trobar al nostre poble, al nostre barri o al nostre carrer.
+    do:
+      title: Executem
+      description: Ara, l'Ajuntament d'Ondara es compromet a executar i convertir en una realitat les propostes més votades.
