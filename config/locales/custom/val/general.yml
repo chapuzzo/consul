@@ -1,0 +1,6 @@
+val:
+  layouts:
+    footer:
+      transparency_url: http://ondara.sedelectronica.es/transparency/
+    header:
+      external_link_transparency_url: http://ondara.sedelectronica.es/transparency/
