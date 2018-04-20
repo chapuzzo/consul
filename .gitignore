@@ -36,3 +36,6 @@ public/system/
 ondara.csv
 public/assets
 vendor/bundle
+
+config/secrets.yml
+config/database.yml
