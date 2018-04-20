@@ -73,7 +73,7 @@ Rails.application.configure do
         port: 587,
         domain: 'ondara.org',
         user_name: Rails.application.secrets.mailgun_username,
-        password: Rails.application.secrets,mailgun_password,
+        password: Rails.application.secrets.mailgun_password,
         authentication: :plain
   }
 
