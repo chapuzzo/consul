@@ -69,11 +69,11 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.smtp_settings = {
-        address: 'smtp.mailgun.org',
-        port: 587,
+        address: Rails.application.secrets.address,
+        port: Rails.application.secrets.port,
         domain: 'ondara.org',
-        user_name: Rails.application.secrets.mailgun_username,
-        password: Rails.application.secrets.mailgun_password,
+        user_name: Rails.application.secrets.username,
+        password: Rails.application.secrets.password,
         authentication: :plain
   }
 
