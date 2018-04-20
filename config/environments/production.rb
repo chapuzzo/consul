@@ -74,7 +74,7 @@ Rails.application.configure do
         domain: 'ondara.org',
         user_name: Rails.application.secrets.username,
         password: Rails.application.secrets.password,
-        authentication: :plain
+        authentication: :none
   }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
