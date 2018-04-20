@@ -2,12 +2,7 @@ include DocumentParser
 class LocalCensus
 
   def call(document_type, document_number)
-    record = nil
-    get_document_number_variants(document_type, document_number).each do |variant|
-      record = Response.new(get_record(document_type, variant))
-      return record if record.valid?
-    end
-    record
+    Response.new(get_record(document_type, document_number))
   end
 
   class Response
