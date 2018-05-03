@@ -5,6 +5,7 @@ val:
     general_terms: Condicions d'us
     privacy: Política de privacitat
     titles:
+      help: Ajuda
       accessibility: Accessibilitat
       conditions: Condicions d'us
       privacy: Política de privacitat
@@ -15,3 +16,52 @@ val:
       password: Contrasenya
       submit: Verificar el meu compte
       title: Verifica el teu compte
+    help:
+      title: "Ajuda"
+      guide: "L'Ajuntament d'Ondara, amb una voluntat ferma d'oferir instruments per a la participació ciutadana, llança per a l'exercici  pressupostari de l'any 2018, per primera vegada, una partida de 75.000€ destinada a Pressupostos Participatius per mitjà d'una Consulta Ciutadana d'Inversions. Aquesta, pretén que siguen les persones empadronades a Ondara les qui facen propostes d'inversions a partir de realitats i necessitats que observen, identifiquen i amb les que conviuen com a ciutadans del nostre poble i que passen a ser votades. Per tant, podrà ser escollit un únic projecte de 75.000 euros o diferents projectes fins a esgotar aquesta quantitat."
+      menu:
+        calendari: "CALENDARI I FASES DE LA CONSULTA"
+        propostes: "SOBRE LES PROPOSTES D'INVERSIÓ. "
+        votacio: "SOBRE LA VOTACIÓ DE PROPOSTES."
+      calendari:
+        title: "CALENDARI I FASES DE LA CONSULTA"
+        description: "La Consulta Ciutadana d'Inversions compta amb les següents fases: "
+        phase_1_html: "Primera fase: Recepció de Propostes de Projectes d'Inversió per part de la ciutadania. <strong>De l'1 al 20 de maig.</strong>"
+        phase_2_html: "Segon fase: Valoració tècnica de les Propostes de Projectes d'Inversió rebudes. <strong>Del 20 de maig al 30 de juny.</strong>"
+        phase_3_html: "Tercera fase: Votació de les Propostes per part de la ciutadania. <strong>De l'1 al 15 de juliol.</strong> "
+      propostes:
+        title: "SOBRE LES PROPOSTES D'INVERSIÓ."
+        phase_1_html: "<strong>Que és una Proposta d'inversió?</strong>"
+        phase_2_html: "Una Proposta de Projecte d'Inversió ha de reunir les següents característiques: "
+        phase_3_html: "1. Que no siga un be fungible, és a dir que no es consumisca per l'ús que se'n fa  d'aquest."
+        phase_4_html: "2. Que tinguen una duració superior als 12 mesos."
+        phase_5_html: "3. Que siga susceptible d'incloure's en l'inventari que recull el patrimoni municipal."
+        phase_6_html: "Per tant, les inversions poden ser obres, tant noves, com de manteniment de les que ja hi ha (per exemple: la construcció d'un jardí o d'un skatepark) o adquisicions permanents per part de l'Ajuntament com, per exemple, la compra de contenidors de residus o l'adquisició de mobiliari urbà. "
+        phase_7_html: "Les inversions no son: l'organització d'activitats (programes culturals, festes, etc), ni serveis, com podria ser la petició de més serveis de neteja o més personal a Serveis Socials, ni tampoc premis o subvencions de diferents tipus."
+        phase_8_html: "<strong>Qui pot presentar Propostes de Projectes d'Inversió. </strong>"
+        phase_9_html: "Podran presentar propostes les persones empadronades correctament a Ondara i majors de 16 anys o els col·lectius i associacions amb àmbit d'actuació local. Es podran presentar fins a un màxim de 3 propostes per persona, col·lectiu o associació. "
+        phase_10_html: "En el cas de que un mateixa persona, col·lectiu o associació presente més de tres Propostes de Projectes d'Inversió passaran a estudi tècnic les 3 que hagen estat enregistrades en primer lloc. "
+        phase_11_html: "<strong>Com es poden presentar Propostes de Projectes d'Inversió? </strong>"
+        phase_12_html: "Podran proposar-se per dues vies: "
+        phase_13_html: "1- Principalment es podran fer les propostes de manera telemàtica per mitjà d'aquesta plataforma web prement a «Pressupostos participatius». "
+        phase_14_html: "2- De forma presencial a la Casa de Cultura de dilluns a divendres en horari de 9.30 a 13.30 hores i de 16.30 a 20.30 hores per mitjà d'aquesta plataforma web però assessorat/assessorada per un treballador o una treballadora municipal. "
+        phase_15_html: "Una vegada finalitzat el termini de presentació de propostes, aquestes passaran a estudi per part de l'equip tècnic municipal. Aquest, es realitzarà en un únic procés que consta de dues fases: "
+        phase_16_html: "Primera fase: Validació de les Propostes de Projectes d'Inversió. "
+        phase_17_html: "Una vega finalitzat el termini de presentació de propostes, des de l'Oficina Tècnica  de l'Ajuntament d'Ondara es realitzarà un procés de validació de les propostes  realitzades, amb l'objectiu de verificar que totes compleixen els criteris especificats   en les bases de la Consulta Ciutadana d'Inversions. "
+        phase_18_html: "Segon fase: Viabilitat jurídica, tècnica i pressupostaria de les Propostes de Projectes d'Inversió. "
+        phase_19_html: "Les propostes que s'hagen validat a la fase anterior, passaran a ser estudiades pels   Serveis Tècnics de l'Ajuntament d'Ondara que seran qui redactaran informe sobre la  seua viabilitat jurídica, tècnica i pressupostària i que hauran de complir amb les tres   per passar a la fase de votació ciutadana. "
+      votacio:
+        title: "SOBRE LA VOTACIÓ DE PROPOSTES."
+        phase_1_html: "<strong>Qui pot votar? </strong>"
+        phase_2_html: "Podran votar les persones majors de 16 anys, correctament empadronades a Ondara i que s'hagen registrat prèviament en aquesta plataforma per a la comprovació del cens poblacional. "
+        phase_3_html: "<strong>Com i on votar?  </strong>"
+        phase_4_html: "Una vegada avaluades, estaran disponibles al web de “Ondara Participa” les Propostes de Projectes d'Inversió viables amb el cost estimat de les mateixes per a que la ciutadania puga votar, otorgant un vot a cada proposta fins a esgotar el pressupost. Per tant, una mateixa persona podrà votar les diferents propostes que estime oportunes mentre li quede pressupost disponible. Tot i que, no és necessàri esgotar tot el pressupost i inclús es podrà votar una única proposta."
+        phase_5_html: "Es podrà votar telemàticament com a opció preferible en aquest portal web tot i que també es podrà votar de manera telemàtica però assistida per un treballador o una treballadora municipal a la Casa de Cultura en l'horari que s'especificarà en aquest portal web quan s'aproxime el període de votació de propostes."
+        phase_6_html: "<strong>Resultats i seguiment.</strong>"
+        phase_7_html: "El resultat final de tot el procés consultiu s'obtindrà de la següent forma: una vegada finalitzat el termini de votacions, s'ordenaran les propostes per nombre de vots i es seleccionaran les propostes de la més votades fins a l'última, tenint en compte no sobrepassar el pressupost total disponible per a Pressupostos Participatius."
+        phase_8_html: "En el cas de que quede remanent per no superar el total disponible, es donarà la possibilitat, amb informe dels Serveis Tècnics, de destinar el remanent a ampliar el projecte d'inversió d'alguna de les propostes més votades per la ciutadania. "
+        phase_9_html: "Si ixen escollides dues propostes que resulten incompatible entre elles s'actuarà de la següent manera:"
+        phase_10_html: "- En el cas que dues Propostes de Projectes d'Inversió siguen incompatibles per l'actuació a dur a terme, s'executarà la que haja aconseguit major nombre de vots. "
+        phase_11_html: "- En el cas d'empat de vots no quedant pressupost per realitzar ambdues intervencions, es durà a terme la que s'haja registrat primer via plataforma web. "
+        phase_12_html: "Les propostes que no passen a la fase d'execució podran ser tornades a presentar en edicions de Consulta Ciutadana d'Inversions futures. "
+        phase_13_html: "Finalment, remarcar que es podrà fer un seguiment de tot el procés d'execució dels projectes escollits a partir de la Consulta Ciutadana per mitjà d'aquesta plataforma web. "

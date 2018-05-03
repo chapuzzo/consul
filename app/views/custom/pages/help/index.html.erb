@@ -1,0 +1,110 @@
+<% provide :title do %><%= t("pages.titles.help", org: setting['org_name']) %><% end %>
+<% content_for :canonical do %>
+  <%= render "shared/canonical", href: help_url %>
+<% end %>
+
+<div class="jumbo light">
+  <div class="row">
+    <div class="small-12 medium-9 column">
+      <h2><%= t("pages.help.title", org: setting['org_name']) %></h2>
+      <p><%= t("pages.help.guide", org: setting['org_name']) %></p>
+    </div>
+  </div>
+
+  <%#= render "pages/help/menu" %>
+  <div class="row">
+    <div class="small-12 column">
+      <ul class="menu-pages" data-magellan>
+        <li>
+          <%= link_to t('pages.help.menu.calendari'), "#calendari", class: "button hollow expanded" %>
+        </li>
+        <li>
+          <%= link_to  t('pages.help.menu.propostes'), "#propostes", class: "button hollow expanded" %>
+        </li>
+        <li>
+          <%= link_to t('pages.help.menu.votacio'), "#votacio", class: "button hollow expanded" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div id="more-info" class="more-info-content">
+  <div class="row">
+    <div class="small-12 medium-7 large-8 column">
+
+      <div class="row section-content">
+        <div class="small-12 column">
+          <h3 id="calendari" data-magellan-target="calendari">
+            <%= t("pages.help.calendari.title") %>
+          </h3>
+          <p>
+            <%= t("pages.help.calendari.description") %>
+          </p>
+          <ul class="features">
+            <li><%= t("pages.help.calendari.phase_1_html").html_safe %></li>
+            <li><%= t("pages.help.calendari.phase_2_html").html_safe %></li>
+            <li><%= t("pages.help.calendari.phase_3_html").html_safe %></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row section-content">
+        <div class="small-12 column">
+          <h3 id="propostes" data-magellan-target="propostes">
+            <%= t("pages.help.propostes.title") %>
+          </h3>
+          <p><%= t("pages.help.propostes.phase_1_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_2_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_3_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_4_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_5_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_6_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_7_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_8_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_9_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_10_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_11_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_12_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_13_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_14_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_15_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_16_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_17_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_18_html").html_safe %></p>
+          <p><%= t("pages.help.propostes.phase_19_html").html_safe %></p>
+        </div>
+      </div>
+
+      <div class="row section-content">
+        <div class="small-12 column">
+          <h3 id="votacio" data-magellan-target="votacio">
+            <%= t("pages.help.votacio.title") %>
+          </h3>
+          <p><%= t("pages.help.votacio.phase_1_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_2_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_3_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_4_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_5_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_6_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_7_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_8_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_9_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_10_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_11_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_12_html").html_safe %></p>
+          <p><%= t("pages.help.votacio.phase_13_html").html_safe %></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <hr>
+    <div class="small-12 column">
+      <%#= render "pages/help/other" %>
+    </div>
+  </div>
+</div>
