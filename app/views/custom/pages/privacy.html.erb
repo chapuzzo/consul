@@ -1,0 +1,33 @@
+<% provide :title do %><%= t('pages.titles.privacy') %><% end %>
+<% content_for :canonical do %>
+  <%= render "shared/canonical", href: page_url("privacy") %>
+<% end %>
+
+<div class="row margin-top">
+
+  <div class="small-12 medium-9 column">
+    <h1><%= t("pages.privacy") %></h1>
+
+    <h2>AVÍS DE PROTECCIÓ DE DADES</h2>
+      <ol>
+        <li>La navegació per la informació disponible en aquest portal web és anònima.</li>
+        <li>Per a la utilització dels serveis continguts en aquest portal web, l'usuari/a haurà de donar-se d'alta i proporcionar prèviament les dades de caràcter personal segons la informació especifica que consta en cada tipus d'alta.</li>
+        <li>Les dades aportades seran incorporades i tractades per l'Ajuntament d'acord amb la descripció del fitxer següent:
+          <ul>
+            <li>Nom del fitxer/tractament: GESTIÓ DE PROCESSOS PARTICIPATIUS.</li>
+            Finalitat del fitxer/tractament: Gestionar els processos participatius per al control de l'habilitació de les persones que participen en els mateixos i recompte <li>meramentnumèric i estadístic dels resultats derivats dels processos de participació ciutadana.</li>
+            <li>Òrgan responsable: REGIDORIA DE DEMOCRÀCIA PARTICIPATIVA I TRANSPARÈNCIA DE L’AJUNTAMENT D’ONDARA</li>
+          </ul>
+        </li>
+        <li>L'interessat podrà exercir els drets d'accés, rectificació, cancel·lació i oposició, davant l'òrgan responsable indicant el que s'informa en el compliment de l'article 5 de la Llei Orgànica 15/1999, de 13 de desembre, de Protecció de Dades de Caràcter Personal.</li>
+        <li>Com a principi general, aquest lloc web no comparteix ni revela informació obtinguda, excepte quan haja sigut autoritzada per l'usuari, o quan la informació siga requerida per l'autoritat judicial, ministeri fiscal o per la policia judicial, o es done algun dels supòsits regulats en l'article 11 de la Llei Orgànica 15/1999, de 13 de desembre, de Protecció de Dades de Caràcter Personal. </li>
+      </ol>
+
+  </div>
+
+  <div class="small-12 medium-3 column">
+    <%= render '/shared/print' %>
+  </div>
+
+</div>
+
