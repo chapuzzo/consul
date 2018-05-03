@@ -241,6 +241,12 @@ val:
       poll_questions: Votacions
       budgets: Pressupostos participatius
       spending_proposals: Propostes d'inversió
+      notification_item:
+        new_notifications:
+          one: tens una nova notificació
+          other: Tens %{count} notificacions noves
+        notifications: Notificaciones
+        no_notifications: "No tens cap notificació"
     admin:
       watch_form_message: 'Has realitzat canvis que no han sigut guardats. Segur que vols abandonar la pàgina?'
   legacy_legislation:
@@ -606,6 +612,7 @@ val:
       previous_slide: Imatge anterior
       next_slide: Imatge següent
     documentation: Documentació adicional
+    more_info: Més informació
   social:
     blog: "Blog de %{org}"
     facebook: "Facebook de %{org}"

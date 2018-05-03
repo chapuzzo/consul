@@ -140,6 +140,9 @@ val:
           valuation_finished: Avaluació finalitzada
           selected: Seleccionades
           winners: Guanyadores
+        buttons:
+          search: Buscar
+          filter: Filtrar
         download_current_selection: "Baixar la selecció actual"
         no_budget_investments: "No hi ha projectes d'inversió."
         title: Propostes d'inversió
