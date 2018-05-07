@@ -35,7 +35,7 @@ val:
       login_items:
         login: Iniciar sessió
         logout: Eixir
-        signup: Registrarse
+        signup: Registrar-se
     organizations:
       registrations:
         new:
@@ -46,7 +46,7 @@ val:
           phone_number_label: Telèfon
           responsible_name_label: Nom i cognoms de la persona responsable del colectiu
           responsible_name_note: Sera la persona representant de l'associació/col·lectiu en el nom del qual es presenten les propostes
-          submit: Registrarse
+          submit: Registrar-se
           title: Registrar-se com organització / col·lectiu
         success:
           back_to_index: Entes, tornar a la pàgina principal
