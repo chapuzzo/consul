@@ -26,12 +26,12 @@ val:
       calendari:
         title: "CALENDARI I FASES DE LA CONSULTA"
         description: "La Consulta Ciutadana d'Inversions compta amb les següents fases: "
-        phase_1_html: "Primera fase: Recepció de Propostes de Projectes d'Inversió per part de la ciutadania. <strong>De l'1 al 20 de maig.</strong>"
-        phase_2_html: "Segon fase: Valoració tècnica de les Propostes de Projectes d'Inversió rebudes. <strong>Del 20 de maig al 30 de juny.</strong>"
-        phase_3_html: "Tercera fase: Votació de les Propostes per part de la ciutadania. <strong>De l'1 al 15 de juliol.</strong> "
+        phase_1_html: "Primera fase: Recepció de Propostes de Projectes d'Inversió per part de la ciutadania. <strong>Del 15 al 31 de maig.</strong>"
+        phase_2_html: "Segon fase: Valoració tècnica de les Propostes de Projectes d'Inversió rebudes. <strong>De l'1 al 24 de juny.</strong>"
+        phase_3_html: "Tercera fase: Votació de les Propostes per part de la ciutadania. <strong>Del 25 de juny al 10 de juliol.</strong> "
       propostes:
         title: "SOBRE LES PROPOSTES D'INVERSIÓ."
-        phase_1_html: "<strong>Que és una Proposta d'inversió?</strong>"
+        phase_1_html: "<strong>Què és una Proposta d'inversió?</strong>"
         phase_2_html: "Una Proposta de Projecte d'Inversió ha de reunir les següents característiques: "
         phase_3_html: "1. Que no siga un be fungible, és a dir que no es consumisca per l'ús que se'n fa  d'aquest."
         phase_4_html: "2. Que tinguen una duració superior als 12 mesos."
